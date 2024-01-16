@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <script>
+         function fun1(){
+             console.log(document);
+             var element = document.getElementById("hid");
+             console.log(element.innerText);
+            var listElements= document.getElementsByName("uname");
+            console.log(listElements[0].value)
+         }
+     </script>
+</head>
+<body>
+    <h2 id="hid">Welocme to html</h2>
+    user Name : <input type ="text" name="uname" value="tom"/><br>
+    <button type=button onclick="fun1()">ClickMe</button>
+</body>
+</html>

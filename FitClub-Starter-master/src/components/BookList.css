@@ -1,0 +1,12 @@
+.list {
+    margin: 2rem auto 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  .list .noData {
+    text-align: center;
+    grid-column: 1 / span 3;
+    margin-top: 2rem;
+    color: #333;
+  }
